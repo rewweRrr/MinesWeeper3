@@ -2,7 +2,6 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:style src="FieldStyle.css"/>
     <g:FlowPanel addStyleNames="{style.myFlowPanel}">
-        <!--<g:Label  addStyleNames="{style.text}" ui:field="cell" text=" @"/>-->
-        <g:Image url="/20x20.png" ui:field="img"/>
+        <g:Label  addStyleNames="{style.text}" ui:field="cell" text=" @"/>
     </g:FlowPanel>
 </ui:UiBinder>
