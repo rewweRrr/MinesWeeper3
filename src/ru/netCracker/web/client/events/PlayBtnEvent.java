@@ -4,10 +4,10 @@ import com.google.gwt.event.shared.EventHandler;
 import com.google.gwt.event.shared.GwtEvent;
 
 /**
- * Created by rewweRrr on 02.03.2016.
+ * Created by rewweRrr on 02.03.2016
  */
 public class PlayBtnEvent extends GwtEvent<PlayBtnEvent.Handler> {
-    public static Type<Handler> TYPE = new Type<Handler>();
+    public static Type<Handler> TYPE = new Type<>();
 
     public Type<Handler> getAssociatedType() {
         return TYPE;

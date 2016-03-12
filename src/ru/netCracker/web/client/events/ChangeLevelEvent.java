@@ -7,7 +7,7 @@ import com.google.gwt.event.shared.GwtEvent;
  * Created by rewweRrr on 02.03.2016
  */
 public class ChangeLevelEvent extends GwtEvent<ChangeLevelEvent.Handler> {
-    public static Type<Handler> TYPE = new Type<Handler>();
+    public static Type<Handler> TYPE = new Type<>();
 
     public Type<Handler> getAssociatedType() {
         return TYPE;
