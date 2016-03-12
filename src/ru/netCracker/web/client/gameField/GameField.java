@@ -15,7 +15,7 @@ public class GameField extends Composite {
 
     private int columns = 8; // 8,16,31
     private int rows = 8;   // 8,16,16
-    private int minesNum = 10; // 10,40,99
+    //private int minesNum = 10; // 10,40,99
     Grid mainFieldPanel = new Grid();
 
     public GameField() {
@@ -42,19 +42,19 @@ public class GameField extends Composite {
                     case Level.EASY:
                         columns = 8;
                         rows = 8;
-                        minesNum = 10;
+                        //minesNum = 10;
                         break;
 
                     case Level.MEDIUM:
                         columns = 16;
                         rows = 16;
-                        minesNum = 40;
+                        //minesNum = 40;
                         break;
 
                     case Level.HARD:
                         columns = 16;
                         rows = 31;
-                        minesNum = 99;
+                        //minesNum = 99;
                         break;
 
                     default:
@@ -70,7 +70,7 @@ public class GameField extends Composite {
         for (int i = 0; i < columns; i++) {
             for (int j = 0; j < rows; j++) {
 
-                UBField field = new UBField();
+                UBField field = new UBField(i,j);
                 mainFieldPanel.setWidget(i,j, field);
             }
         }
