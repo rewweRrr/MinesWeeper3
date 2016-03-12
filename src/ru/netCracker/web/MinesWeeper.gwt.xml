@@ -5,6 +5,7 @@
     <inherits name='com.google.gwt.user.User'/>
 
     <entry-point class='ru.netCracker.web.client.MinesWeeper'/>
+    <servlet path="/CoordinateResource" class="ru.netCracker.web.server.services.CoordinateResourceImpl"/>
     <source path="client"/>
     <source path="shared"/>
 

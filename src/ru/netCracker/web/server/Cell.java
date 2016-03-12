@@ -3,8 +3,6 @@ package ru.netCracker.web.server;
 /**
  * Created by rewweRrr on 12.03.2016.
  */
-public class Server {
-    public static void main(String[] args) {
+public class Cell {
 
-    }
 }

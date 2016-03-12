@@ -3,4 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <servlet>
+        <servlet-name>ru.netCracker.web.MinesWeeper CoordinateResource</servlet-name>
+        <servlet-class>ru.netCracker.web.server.services.CoordinateResourceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ru.netCracker.web.MinesWeeper CoordinateResource</servlet-name>
+        <url-pattern>/ru.netCracker.web.MinesWeeper/CoordinateResource</url-pattern>
+    </servlet-mapping>
 </web-app>
